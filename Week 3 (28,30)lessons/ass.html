@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment of Week3 about Form</title>
+</head>
+<body>
+    <form action="project4.html" method="GET">
+        <label for="user">Your Username</label>
+        <input id="user" type="text" required minlength="5" maxlength="20"  autofocus> <br> <br>
+        <label for="email" >Your Email</label>
+        <input id="email" type="email" readonly value="o@o.com" >
+        <input id="toke" type="text" hidden value="b92f1fc2fce391ad7af633723afd3055"> <br> <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send"> <br>
+        <h3>Choose your Skills</h3>
+
+         <input type="checkbox" id="prop">
+         <label for="prop">Problem Solving</label>
+
+        <input type="checkbox" id="log" checked>
+        <label for="log">Logical Thinking</label>
+        <input type="checkbox" id="adv">
+        <label for="adv"> Advanced Search</label>
+        <input type="checkbox" id="ana">
+        <label for="ana">Analysis</label>
+        <input type="checkbox" id="plan">
+        <label for="plan">Planning</label> <br>
+        <h3>Chosoe your job </h3>
+         <div>
+             <input type="radio" name="job" value="Front-End Developer" checked>
+             <label  >Front-End Developer</label>
+         </div>
+         <div>
+            <input type="radio" name="job" value="Back-End Developer">
+            <label  > Back-End Developer</label>
+         </div>
+         <div>
+            <input type="radio" name="job" value=" Business Analyst">
+            <label  > Business Analyst</label>
+         </div>
+         <div>
+            <input type="radio" name="job" value="Project Manager">
+            <label> Project Manager</label>
+         </div>
+         <div>
+            <input type="radio" name="job" value="Scrum Master">
+            <label >Scrum Master</label>
+         </div>
+         <br>
+         <label for="Books">Choose Version:</label>
+         <select name="Books" id="Books">
+           <optgroup label="PHP Version">
+                <option value="v1.0">Version1.php</option>
+                <option value="v2.0">Version2.php</option>
+                <option value="v3.0">Version3.php</option>
+                <option value="v4.0">Version4.php</option>
+                <option value="v5.0">Version5.php</option>
+                <option value="v6.0">Version6.php</option>
+                <option value="v7.0">Version7.php</option>
+           </optgroup>
+           <optgroup label="Python Version">
+               <option value="v2.0">version2.pyth</option>
+               <option value="v3.0">version3.pyth</option>
+               <option value="v4.0">version4.pyth</option>
+           </optgroup>
+
+         </select>
+          <br> <br> <br>
+         <label for="text"> brief</label> <br>
+          <textarea id="text" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        
+       
+       </form>
+</body>
+</html>
